@@ -7,10 +7,145 @@
 
 body {
     background-color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-main {
-    background-color: white ;
-    text-align: center;
-    align-items: center;
+.first-page-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    width: 1300px;
+    height: 850px;
 }
+
+footer {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    background-color: black;
+}
+
+.first-page-content {
+    display: flex;
+}
+
+.register {
+    justify-content: center;
+    margin: 80px 10px 0 125px;
+    width: 50%;
+}
+
+.title {
+    color: hsl(235, 18%, 26%);
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.description { 
+    font-size: 18px;
+    text-align: center;
+    color: hsl(235, 18%, 26%);
+}
+
+.image {
+    width: 50%;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    height: 750px;
+}
+
+.about-us-div {
+    display: flex;
+}
+
+.about-us-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.about-us-item {
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form > label { 
+    margin-bottom: 10px;
+}
+
+.register-form > input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 50px;
+}
+
+.button {
+    margin-top: 30px;
+    height: 55px;
+    border-radius: 8px;
+    background-color:  hsl(234, 29%, 20%);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: transparent;
+    background-image: -webkit-linear-gradient(right,hsl(4, 100%, 67%),#fa6180);
+    box-shadow: 1px 10px 14px #ff7e98;
+}
+
+.second-page-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 40px;
+    width: 550px;
+    height: 550px;
+}
+
+.second-page-content {
+    margin: 80px;
+}
+
+.second-page-content > h1 {
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.second-page-button {
+    margin-top: 30px;
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+    background-color:  hsl(234, 29%, 20%);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.second-page-button:hover {
+    border-color: transparent;
+    background-image: -webkit-linear-gradient(right,hsl(4, 100%, 67%),#fa6180);
+    box-shadow: 1px 10px 14px #ff7e98;
+}
+
