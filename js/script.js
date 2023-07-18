@@ -27,6 +27,12 @@ function verificationForm (e) {
     if(!temErro){
         formulario.submit()
     }
+
+    // Construct the URL with query parameters
+    const url = 'message.html' + '?email=' + encodeURIComponent(email);
+
+    // Redirect the user to the second page
+    window.location.href = url;    
 }
 
 form.addEventListener('submit', verificationForm)

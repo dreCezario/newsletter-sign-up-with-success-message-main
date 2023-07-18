@@ -155,3 +155,8 @@ footer {
     background-image: -webkit-linear-gradient(right,hsl(4, 100%, 67%),#fa6180);
     box-shadow: 1px 10px 14px #ff7e98;
 }
+
+.span-message {
+    margin-top: 55px;
+    font-style: bold;
+}
