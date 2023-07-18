@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
 
@@ -36,11 +37,12 @@
           </div>
         </ul> 
       
-        <form class="register-form">
+        <form class="register-form" id="form">
           <label> Email address</label>
-          <input type="text" placeholder="email@company.com"> 
-        
-          <button class="button">Subscribe to monthly newsletter</button>
+          <input type="text" placeholder="email@company.com" id="email"> 
+          <br>
+          <span class="erro" id="span-email"></span>
+          <button class="button" type="submit">Subscribe to monthly newsletter</button>
         </form>
       </div>
 
